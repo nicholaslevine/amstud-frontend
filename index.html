@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Transcendentalist in the Woods</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="game-stage">
+        <div class="sky"></div>
+        <div class="mountains">
+            <div class="snow snow-left"></div>
+            <div class="snow snow-right"></div>
+        </div>
+
+        <div class="ground"></div>
+
+        <div class="tree tree-left">
+            <div class="trunk"></div>
+            <div class="canopy canopy-1"></div>
+            <div class="canopy canopy-2"></div>
+            <div class="canopy canopy-3"></div>
+        </div>
+
+        <div class="tree tree-right">
+            <div class="trunk"></div>
+            <div class="canopy canopy-1"></div>
+            <div class="canopy canopy-2"></div>
+            <div class="canopy canopy-3"></div>
+        </div>
+
+        <div class="character">
+            <div class="sprite transcendentalist">
+            <div class="head">
+                <div class="eye eye-left"></div>
+                <div class="eye eye-right"></div>
+                <div class="nose"></div>
+                <div class="mouth"></div>
+            </div>
+            <div class="torso"></div>
+            <div class="arm arm-left"></div>
+            <div class="arm arm-right"></div>
+            <div class="leg leg-left"></div>
+            <div class="leg leg-right"></div>
+            </div>
+            <div class="name-tag">Transcendentalist</div>
+            <div class="speech-bubble" id="bubble-trans"></div>
+        </div>
+    </div>
+
+
+    <div id="controls">
+      <textarea
+        id="player-input"
+        rows="2"
+        placeholder="Share a thought, question, or worry with the Transcendentalist..."
+      ></textarea>
+      <button id="send-btn">Speak</button>
+      <div id="status-text"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
