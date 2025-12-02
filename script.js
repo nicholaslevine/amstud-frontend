@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/query"; 
+const API_URL = "https://amstud-repo-production.up.railway.app/query"; 
 
 const bubbleTrans = document.getElementById("bubble-trans");
 const input = document.getElementById("player-input");
